@@ -4,23 +4,29 @@ using UnityEngine;
 
 public class RubyController : MonoBehaviour
 {
+    Rigidbody2D rigidbody2d;
+    float horizontal;
+    float vertical;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        rigidbody2d = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        horizontal = Input.GetAxis("Horizontal");
+        vertical = Input.GetAxis("Vertical");
+    }
 
-        //grab Ruby's current position - transform.position is the current values of the transform window and its position
-        Vector2 position = transform.position;
+    void FixedUpdate()
+    {
+        Vector2 position = rigidbody2d.position;
         position.x = position.x + 3.0f * horizontal * Time.deltaTime;
         position.y = position.y + 3.0f * vertical * Time.deltaTime;
-        // apply the poisition change back to the transform object
-        transform.position = position;
+
+        rigidbody2d.MovePosition(position);
     }
 }
