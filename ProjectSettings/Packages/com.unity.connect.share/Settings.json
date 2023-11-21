@@ -6,7 +6,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"E:/Unity Projects/Builds/RubyM03Tutorial;E:/Unity Projects/Builds/Ruby2DTutorial;;;;;;;;\"}"
+                "value": "{\"m_Value\":\"E:/Unity Projects/Builds/2DTutorialM03;E:/Unity Projects/Builds/RubyM03Tutorial;E:/Unity Projects/Builds/Ruby2DTutorial;;;;;;;\"}"
             },
             {
                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
