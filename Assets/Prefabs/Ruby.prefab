@@ -100,7 +100,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   maxHealth: 5
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 664515255203100096, guid: 4a7b111fcbcdf694ca1d3220b874cc2e, type: 3}
+  throwSound: {fileID: 8300000, guid: b2edfd40873655249ba0e01a5cf705be, type: 3}
+  hitSound: {fileID: 8300000, guid: 9b1bb1f450b7d444fa4a8019d13519a7, type: 3}
   currentHealth: 0
   timeInvincible: 2
 --- !u!50 &698913481938379492
